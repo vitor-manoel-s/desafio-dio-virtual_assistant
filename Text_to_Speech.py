@@ -2,9 +2,9 @@ from gtts import gTTS
 from IPython.display import Audio
 
 
-text_to_say = "How are you doing?."
+text_to_say = "Olá, Mundo!"
 
-language = "en"
+language = "pt-br"
 
 gtts_object = gTTS(text = text_to_say, 
                   lang = language,
